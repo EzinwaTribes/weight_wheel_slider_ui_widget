@@ -41,6 +41,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ComposeXampleLibraryTheme {
-        Greeting("Android")
+        ImagePreview(imageDrawable = R.drawable.image, description = "Hello Compose")
     }
 }
