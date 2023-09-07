@@ -62,7 +62,7 @@ afterEvaluate {
 
                 groupId = "com.ezinwa.circular_card_image"
                 artifactId = "circular-image-compose"
-                version = "1.0 "
+                version = "1.1.0"
             }
         }
     }
