@@ -1,7 +1,11 @@
 plugins {
+    id("maven-publish")
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
 }
+
+group = "com.ezinwa"
+version = "1.0"
 
 android {
     namespace = "com.ezinwa.circular_card_image"
@@ -48,4 +52,18 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            val mavenJava by creating(MavenPublication::class) {
+                from(components["release"])
+
+                groupId = "com.ezinwa.circular_card_image"
+                artifactId = "circular-image-compose"
+                version = "1.0 "
+            }
+        }
+    }
 }
