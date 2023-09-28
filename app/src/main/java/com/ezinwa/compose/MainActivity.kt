@@ -3,11 +3,14 @@ package com.ezinwa.compose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.ezinwa.circular_card_image.ImagePreview
@@ -23,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    LoadScale()
                 }
             }
         }
@@ -31,20 +34,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+private fun LoadScale() {
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ){
+        Scale(modifier = Modifier
+            .fillMaxWidth()
+            .align(Alignment.Center)) {
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ComposeXampleLibraryTheme {
-        ImagePreview(
-            imageDrawable = R.drawable.image,
-            description = "Hello Compose"
-        )
+        }
     }
 }
