@@ -1,4 +1,4 @@
-package com.ezinwa.circular_card_image
+package com.ezinwa.weight_wheel_slider
 
 import org.junit.Test
 

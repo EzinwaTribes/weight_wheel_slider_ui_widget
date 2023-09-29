@@ -1,4 +1,4 @@
-package com.ezinwa.circular_card_image
+package com.ezinwa.weight_wheel_slider
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp

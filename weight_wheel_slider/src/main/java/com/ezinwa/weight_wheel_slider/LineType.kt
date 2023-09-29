@@ -1,4 +1,4 @@
-package com.ezinwa.circular_card_image
+package com.ezinwa.weight_wheel_slider
 
 sealed class LineType {
     object Normal : LineType()

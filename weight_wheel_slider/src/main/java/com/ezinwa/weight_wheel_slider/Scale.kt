@@ -1,4 +1,4 @@
-package com.ezinwa.circular_card_image
+package com.ezinwa.weight_wheel_slider
 
 import android.graphics.Color
 import android.graphics.Paint

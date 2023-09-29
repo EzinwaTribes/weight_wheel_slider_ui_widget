@@ -19,8 +19,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ezinwa.circular_card_image.Scale
-import com.ezinwa.circular_card_image.ScaleStyle
+import com.ezinwa.weight_wheel_slider.Scale
+import com.ezinwa.weight_wheel_slider.ScaleStyle
 import com.ezinwa.compose.ui.theme.ComposeXampleLibraryTheme
 
 class MainActivity : ComponentActivity() {
