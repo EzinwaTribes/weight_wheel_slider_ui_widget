@@ -1,4 +1,4 @@
-package com.ezinwa.compose
+package com.ezinwa.circular_card_image
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp

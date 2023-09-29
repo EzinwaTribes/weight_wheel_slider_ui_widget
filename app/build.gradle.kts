@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.ezinwa.compose"
-        minSdk = 23
+        minSdk = 26
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-    implementation ("com.github.EzinwaTribes:Compose_Xample_Library:1.1.1")
+    implementation(project(":circular_card_Image"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")

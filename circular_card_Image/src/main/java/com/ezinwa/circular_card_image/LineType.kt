@@ -1,4 +1,4 @@
-package com.ezinwa.compose
+package com.ezinwa.circular_card_image
 
 sealed class LineType {
     object Normal : LineType()

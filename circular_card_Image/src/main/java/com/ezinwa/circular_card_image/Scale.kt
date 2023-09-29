@@ -1,4 +1,4 @@
-package com.ezinwa.compose
+package com.ezinwa.circular_card_image
 
 import android.graphics.Color
 import android.graphics.Paint
@@ -22,24 +22,25 @@ import kotlin.math.atan2
 import kotlin.math.cos
 import kotlin.math.sin
 
+
 @Composable
 fun Scale(
     modifier: Modifier = Modifier,
-    style: ScaleStyle = ScaleStyle(),
     minWeight: Int = 10,
     maxWeight: Int = 100,
     initialWeight: Int = 68,
-    onWeightChange: (Int) -> Unit
+    style: ScaleStyle = ScaleStyle(),
+    onWeightChange: (Int) -> Unit,
 ) {
     val radius = style.radius
     val scaleWidth = style.scaleWidth
 
     var center by remember { mutableStateOf(Offset.Zero) }
+
     var circleCenter by remember { mutableStateOf(Offset.Zero) }
     var angle by remember { mutableStateOf(0f) }
     var dragAngleStarted by remember { mutableStateOf(0f) }
     var oldAngle by remember { mutableStateOf(angle) }
-
 
     Canvas(modifier = modifier
         .pointerInput(true){
