@@ -1,5 +1,8 @@
 # Weight Wheel Slider Widget Library
 
+### Screenshot
+<img src="https://github.com/EzinwaTribes/weight_wheel_slider_ui_widget/assets/113343192/e1654603-8400-4175-af5d-3820a3864ca8" alt="Screen_recording_20230929_141904" height="500">
+
 ## How to Use
 
 ### Step 1: Add the JitPack repository to your build file
