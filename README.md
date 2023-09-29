@@ -37,7 +37,7 @@ If you are using Maven, add the following repository to your project's pom.xml f
 In your app-level build.gradle file, add the following dependency:
 ```
 dependencies {
-    implementation ("com.github.EzinwaTribes:weight_wheel_slider_widget:{$Tag}")
+    implementation ("com.github.EzinwaTribes:weight_wheel_slider_widget:1.1.2")
 }
 ```
 Replace 'Tag' with the specific version or release tag you want to use.
