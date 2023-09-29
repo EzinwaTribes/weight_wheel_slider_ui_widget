@@ -14,7 +14,7 @@ data class ScaleStyle(
     val tenStepLineColor: Color = Color.Black,
     val normalLineLength: Dp = 15.dp,
     val fiveStepLineLength: Dp = 25.dp,
-    val tenStepLineLength: Dp = 45.dp,
+    val tenStepLineLength: Dp = 35.dp,
     val scaleIndicatorColor: Color = Color.Green,
     val scaleIndicatorLength: Dp = 60.dp,
     val textSize: TextUnit = 18.sp
