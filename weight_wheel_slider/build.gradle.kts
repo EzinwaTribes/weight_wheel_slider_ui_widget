@@ -60,9 +60,9 @@ afterEvaluate {
             val mavenJava by creating(MavenPublication::class) {
                 from(components["release"])
 
-                groupId = "com.ezinwa.circular_card_image"
-                artifactId = "circular-image-compose"
-                version = "1.1.0"
+                groupId = "com.ezinwa.weight_wheel_slider"
+                artifactId = "weight_wheel_slider"
+                version = "1.1.2"
             }
         }
     }

@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Compose Xample Library"
 include(":app")
-include(":circular_card_Image")
+include(":weight_wheel_slider")
